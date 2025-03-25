@@ -1,0 +1,14 @@
+[
+  {
+    "id": "polish-o-u",
+    "name": "Polish ó/u Words",
+    "description": "Words with ó and u letters for Polish spelling practice",
+    "path": "polish_o_u.json"
+  },
+  {
+    "id": "polish-rz-z",
+    "name": "Polish rz/ż Words",
+    "description": "Words with rz and ż letters for Polish spelling practice",
+    "path": "polish_rz_z.json"
+  }
+]

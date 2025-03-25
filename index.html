@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDU Snake Game</title>
+    <link href="snake.css" rel="stylesheet">
+</head>
+<body>
+<h1>EDU Snake Game</h1>
+<div id="game-container">
+    <div id="word-display">Press Start to Play</div>
+    <canvas id="game-canvas" width="400" height="400"></canvas>
+    <div id="score-container">
+        <div class="score-item" id="score-display">Score: 0</div>
+        <div class="score-item" id="mistakes">Mistakes: 0/3</div>
+    </div>
+    <div id="controls">
+        <button id="start-button">Start Game</button>
+        <div class="current-lists" id="current-lists">No word lists selected</div>
+        <p>Use arrow keys to move the snake. Collect the correct letter to complete the word!</p>
+    </div>
+
+    <!-- Game Over Modal -->
+    <div id="game-over" class="modal game-over">
+        <h2>Game Over!</h2>
+        <p id="game-over-reason">You made 3 mistakes!</p>
+        <p id="final-score">Your score: 0</p>
+        <div class="modal-actions">
+            <button id="restart-button">Play Again</button>
+            <button id="change-lists-button-gameover">Change Word Lists</button>
+        </div>
+    </div>
+
+    <!-- Win Modal -->
+    <div id="win-screen" class="modal win-screen">
+        <h2>Congratulations!</h2>
+        <p>You have completed all words!</p>
+        <p id="win-score">Your final score: 0</p>
+        <p id="win-mistakes">Mistakes made: 0/3</p>
+        <div class="modal-actions">
+            <button id="play-again-button">Play Again</button>
+            <button id="change-lists-button-win">Change Word Lists</button>
+        </div>
+    </div>
+
+    <!-- Word List Selection Modal -->
+    <div id="select-lists-modal" class="modal select-lists-modal">
+        <h2>Select Word Lists</h2>
+        <p>Choose one or more word lists to play with:</p>
+        <div id="loading-indicator" class="loading-indicator">Loading word lists...</div>
+        <div id="lists-container" class="lists-container">
+
+        </div>
+        <div id="list-select-error">Please select at least one word list.</div>
+        <div class="modal-actions">
+            <button id="confirm-lists-button">Start Game</button>
+            <button id="cancel-lists-button">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<script src="snake.js"></script>
+</body>
+</html>

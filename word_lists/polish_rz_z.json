@@ -1,0 +1,13 @@
+[
+  { "word": "dró_ka", "correctLetter": "ż", "incorrectLetter": "rz" },
+  { "word": "_ółty", "correctLetter": "ż", "incorrectLetter": "rz" },
+  { "word": "_eka", "correctLetter": "rz", "incorrectLetter": "ż" },
+  { "word": "_odkiewka", "correctLetter": "rz", "incorrectLetter": "ż" },
+  { "word": "ły_wa", "correctLetter": "ż", "incorrectLetter": "rz" },
+  { "word": "zbo_e", "correctLetter": "ż", "incorrectLetter": "rz" },
+  { "word": "Kata_yna", "correctLetter": "rz", "incorrectLetter": "ż" },
+  { "word": "po_ądek", "correctLetter": "rz", "incorrectLetter": "ż" },
+  { "word": "wie_ba", "correctLetter": "rz", "incorrectLetter": "ż" },
+  { "word": "ku_", "correctLetter": "rz", "incorrectLetter": "ż" },
+  { "word": "kału_a", "correctLetter": "ż", "incorrectLetter": "rz" }
+]
